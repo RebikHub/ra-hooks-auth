@@ -7,7 +7,7 @@
     "prestart": "npm install",
     "start": "forever server.js",
     "watch": "forever -w server.js",
-    "node": "nodemo server.js"
+    "node": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
