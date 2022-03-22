@@ -26,7 +26,9 @@ useEffect(() => {
   })
 }, [])
 useEffect(() => {
-  fetch('http://localhost:7070/private/me')
+  fetch('http://localhost:7070/private/me', {
+    Authorization: 'Bearer token'
+  })
     .then(resp => resp.json())
     .then(json => console.log(json))
 }, [token])
