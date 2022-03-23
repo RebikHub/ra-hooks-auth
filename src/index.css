@@ -32,14 +32,23 @@ input {
   border: 1px solid #00000059;
 }
 
-.form-btn {
+button {
   width: 60px;
   height: 30px;
   font-size: large;
-  color: #2bc22b;
-  border: 1px solid #2bc22b;
   border-radius: 3px;
   font-weight: bolder;
+  cursor: pointer;
+}
+
+.form-btn {
+  color: #2bc22b;
+  border: 1px solid #2bc22b;
+}
+
+.btn-out {
+  color: #f44336;
+  border: 1px solid #f44336;
 }
 
 .auth {
@@ -57,16 +66,6 @@ input {
   align-self: center;
   font-size: large;
   font-weight: 300;
-}
-
-.btn-out {
-  width: 60px;
-  height: 30px;
-  font-size: large;
-  color: #f44336;
-  border: 1px solid #f44336;
-  border-radius: 3px;
-  font-weight: bolder;
 }
 
 .plug {
@@ -94,8 +93,16 @@ input {
   margin-bottom: 10px;
 }
 
+.news > img {
+  width: 100%;
+}
+
 .news-text {
   font-size: large;
+}
+
+.news-text > h5 {
+  text-transform: capitalize;
 }
 
 .news-text > h5, .news-text > p {

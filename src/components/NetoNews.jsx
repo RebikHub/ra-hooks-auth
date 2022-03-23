@@ -1,12 +1,12 @@
 import React from 'react'
 
-export default function NetoNews() {
+export default function NetoNews({title, image, content}) {
   return (
     <div className="news">
-      <img src="#" alt="#" />
+      <img src={image} alt={title} />
       <div className="news-text">
-        <h5>Title</h5>
-        <p>Some...</p>
+        <h5>{title}</h5>
+        <p>{content}</p>
       </div>
     </div>
   )
