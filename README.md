@@ -1,4 +1,6 @@
 
+[![Build status](https://ci.appveyor.com/api/projects/status/xl6gmp3iwckkigc0/branch/master?svg=true)](https://ci.appveyor.com/project/RebikHub/ra-hooks-auth/branch/master)
+
 [Authentication](https://rebikhub.github.io/ra-hooks-auth/)
 
 ===
