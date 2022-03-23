@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/ra-hooks-auth/static/css/main.721d2030.css",
+    "main.js": "/ra-hooks-auth/static/js/main.0739b797.js",
+    "index.html": "/ra-hooks-auth/index.html",
+    "main.721d2030.css.map": "/ra-hooks-auth/static/css/main.721d2030.css.map",
+    "main.0739b797.js.map": "/ra-hooks-auth/static/js/main.0739b797.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.721d2030.css",
+    "static/js/main.0739b797.js"
+  ]
+}
